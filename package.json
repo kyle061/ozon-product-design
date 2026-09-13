@@ -1,0 +1,21 @@
+{
+  "name": "ozon-product-design",
+  "version": "1.0.0",
+  "description": "Ozon 商品主图、详情套图与俄语文案设计技能，附 Codex 安装命令。",
+  "type": "module",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyle061/ozon-product-design.git"
+  },
+  "homepage": "https://github.com/kyle061/ozon-product-design#readme",
+  "bugs": { "url": "https://github.com/kyle061/ozon-product-design/issues" },
+  "engines": { "node": ">=20" },
+  "bin": { "ozon-product-design": "bin/cli.mjs" },
+  "files": ["bin/", "SKILL.md", "agents/", "references/"],
+  "scripts": {
+    "test": "node --test",
+    "prepack": "npm test"
+  },
+  "keywords": ["codex", "skill", "ozon", "ecommerce", "product-design", "russian"]
+}
