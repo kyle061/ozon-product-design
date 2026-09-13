@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ozon 商品视觉设计"
+  short_description: "面向 Ozon 的商品主图、详情套图设计与俄语文案本地化"
+  default_prompt: "使用 $ozon-product-design，基于我提供的商品实拍和参数，制作适合 Ozon 的主图与详情套图，中文沟通、俄语上图。"
