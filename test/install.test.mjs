@@ -22,7 +22,7 @@ test('fresh install preserves all skill resources and excludes package tooling',
   assert.equal(result.status, 0, result.stderr);
   const target = join(dir, 'skills', name);
   assert.deepEqual((await readdir(target)).sort(), ['SKILL.md', 'agents', 'references']);
-  for (const file of ['SKILL.md', 'agents/openai.yaml', 'references/platform-and-export.md', 'references/layout-and-copy.md', 'references/prompts.md']) {
+  for (const file of ['SKILL.md', 'agents/openai.yaml', 'references/platform-and-export.md', 'references/layout-and-copy.md', 'references/prompts.md', 'references/image-translation.md']) {
     assert.deepEqual(await readFile(join(target, file)), await readFile(join(root, file)));
   }
 });

@@ -1,7 +1,7 @@
 {
   "name": "ozon-product-design",
-  "version": "1.0.0",
-  "description": "Ozon 商品主图、详情套图与俄语文案设计技能，附 Codex 安装命令。",
+  "version": "1.1.0",
+  "description": "Ozon 商品图设计与原图文字俄语翻译替换技能，附 Codex 安装命令。",
   "type": "module",
   "license": "UNLICENSED",
   "repository": {
